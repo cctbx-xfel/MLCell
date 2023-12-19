@@ -1,0 +1,2 @@
+tag,data_dir,load_crystal_families,classify_by,train_fraction,n_max,n_points,points_tag,points_transform,centered,include_centered,categories,epochs,layer_sizes,epsilon,learning_rate,batch_size,dropout_rate
+mlp_wide_class_include_all_bravais_lattice,/Users/DWMoreau/unit_cell_ML/data,"['cubic', 'hexagonal', 'monoclinic', 'orthorhombic', 'tetragonal', 'triclinic']",bravais_lattice,0.8,25000,20,all,StandardScaler,include,True,"['cF', 'cP', 'cI', 'hP', 'hR', 'mC', 'mP', 'oP', 'oC', 'oF', 'oI', 'tI', 'tP', 'aP']",30,"[400, 200, 100, 100]",0.001,0.0005,64,0.5

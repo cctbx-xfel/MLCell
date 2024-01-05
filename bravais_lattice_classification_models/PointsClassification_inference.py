@@ -65,4 +65,4 @@ class PointsClassifier:
 
 if (__name__ == '__main__'):
     classifier = PointsClassifier()
-    classifier.do_inference(np.arange(1, 21))
+    classifier.do_inference(np.arange(20, 0, -1))

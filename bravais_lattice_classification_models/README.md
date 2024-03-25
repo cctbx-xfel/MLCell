@@ -1,4 +1,4 @@
-This classification model accepts 20 peak positions in units of angstrongs, ordered from lowest to highest resolution, and returns results for Bravais lattice classification. Dependencies include Tensorflow and sklearn.
+This classification model accepts 20 peak positions in units of angstroms, ordered from lowest to highest resolution, and returns results for Bravais lattice classification. Dependencies include Tensorflow and sklearn.
 
 Inference is performed using the PointsClassifier object within the PointsClassification_inference.py file. Import the object in a python shell, ipython for instance, and supply the do_inference method with a list of 20 d-spacings.
 
